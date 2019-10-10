@@ -1,3 +1,4 @@
 [submodule "source-app"]
 	path = source-app
 	url = https://github.com/hscfapps/vue-app-plus-inner.git
+	branch = master
