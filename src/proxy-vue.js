@@ -1,4 +1,5 @@
 
+/* transform-import-source-disable */
 import Vue from 'vue';
 import Router from 'vue-router'
 // 这里可以切换不同的路由配置列表来体验不同的页面定制

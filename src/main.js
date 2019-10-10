@@ -1,1 +1,1 @@
-import '../proxy-app/src/main';
+import('@/main.js');
