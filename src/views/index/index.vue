@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is local index page</h1>
+    <h1>我是代理的index页面</h1>
   </div>
 </template>
 

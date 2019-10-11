@@ -16,7 +16,9 @@ function mergeRoute(routes1, routes2) {
         ...route1,
         ...route2,
       };
-      children && (router.children = children);
+      if (children) {
+        router.children = children;
+      }
       list.push(router);
       return list;
     }
@@ -24,15 +26,12 @@ function mergeRoute(routes1, routes2) {
     return list;
   }, []);
   routes2.forEach((route) => {
-    if(routes2Map[route.path]) {
+    if (routes2Map[route.path]) {
       routes.push(route);
     }
   });
   return routes;
 }
 
-export default (...routersSet) => {
-  return routersSet.reduce((routes, currentRoutes) => {
-    return mergeRoute(routes, currentRoutes);
-  }, []);
-};
+export default (...routersSet) => routersSet
+  .reduce((routes, currentRoutes) => mergeRoute(routes, currentRoutes), []);

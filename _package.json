@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "i": "cnpm i --registry=https://nexus.choerodon.com.cn/repository/hscf-npm/ && git submodule init && git submodule update",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "mp": "vue-cli-service merge-package",

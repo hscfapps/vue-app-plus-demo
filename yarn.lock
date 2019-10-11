@@ -1657,6 +1657,18 @@ babel-plugin-module-resolver@3.2.0:
     reselect "^3.0.1"
     resolve "^1.4.0"
 
+babel-plugin-syntax-export-extensions@7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.20.tgz#4138ee9bdd362d6ad7ad8c96fb5b8ca1e55c97d7"
+  integrity sha512-HsPXvLpv0tw34GSQopFE3P299oy/fuEh8n33MLErZi/j7+5LRnD1HzqDf2QnN2SCpfj+EDf9KLSjm8Y7jqbyWQ==
+
+babel-plugin-transform-export-default@^7.0.0-alpha.20:
+  version "7.0.0-alpha.20"
+  resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/babel-plugin-transform-export-default/-/babel-plugin-transform-export-default-7.0.0-alpha.20.tgz#ffd0f26f1008e4a03cb458018752e43b07d50db0"
+  integrity sha512-DR21YY/Lq4Qm+ULZdTLxuSY8woMvW23gejUVz88Lb+8jU3Mf2iuH05IG2+3yqjpbQEhrV/Kgp9GLoa7XLCqDrA==
+  dependencies:
+    babel-plugin-syntax-export-extensions "7.0.0-alpha.20"
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
