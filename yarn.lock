@@ -1657,18 +1657,6 @@ babel-plugin-module-resolver@3.2.0:
     reselect "^3.0.1"
     resolve "^1.4.0"
 
-babel-plugin-syntax-export-extensions@7.0.0-alpha.20:
-  version "7.0.0-alpha.20"
-  resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/babel-plugin-syntax-export-extensions/-/babel-plugin-syntax-export-extensions-7.0.0-alpha.20.tgz#4138ee9bdd362d6ad7ad8c96fb5b8ca1e55c97d7"
-  integrity sha512-HsPXvLpv0tw34GSQopFE3P299oy/fuEh8n33MLErZi/j7+5LRnD1HzqDf2QnN2SCpfj+EDf9KLSjm8Y7jqbyWQ==
-
-babel-plugin-transform-export-default@^7.0.0-alpha.20:
-  version "7.0.0-alpha.20"
-  resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/babel-plugin-transform-export-default/-/babel-plugin-transform-export-default-7.0.0-alpha.20.tgz#ffd0f26f1008e4a03cb458018752e43b07d50db0"
-  integrity sha512-DR21YY/Lq4Qm+ULZdTLxuSY8woMvW23gejUVz88Lb+8jU3Mf2iuH05IG2+3yqjpbQEhrV/Kgp9GLoa7XLCqDrA==
-  dependencies:
-    babel-plugin-syntax-export-extensions "7.0.0-alpha.20"
-
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -7658,9 +7646,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 shell-quote@^1.6.1:
-  version "1.7.2"
-  resolved "https://nexus.choerodon.com.cn/repository/hscf-npm/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
-  integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
